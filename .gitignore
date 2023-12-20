@@ -2,3 +2,5 @@
 cuda/
 
 .vscode/
+
+*.exe
