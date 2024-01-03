@@ -79,38 +79,7 @@ int main()
                 }
             }
         }
-        // for (auto pattern : patterns) {
-        //     // check for matching rows
-        //     for (int i=0; i<pattern.size(); i++) {
-        //         for (int j=0; j<pattern[0].length(); j++) {
-
-        //         }
-        //     }
-        // }
-
-        // for (auto springCondition : springConditions) {
-        //     int posSpace = springCondition.find(" ");
-            
-        //     string condition = springCondition.substr(0, posSpace);
-        //     vector<int> missingInfoLocations{};
-        //     for (int i=0; i<condition.length(); i++) {
-        //         if (condition[i]=='?') missingInfoLocations.push_back(i);
-        //     }
-
-        //     vector<int> groupSizesGiven{};
-        //     for (int i=posSpace+1; i<springCondition.length(); i++) {
-        //         if (isdigit(springCondition[i])) {
-        //             int digitLength = 1;
-        //             while(isdigit(springCondition[i+digitLength])) digitLength++;
-        //             groupSizesGiven.push_back(stoi(springCondition.substr(i, digitLength)));
-        //             i = i+digitLength;
-        //         }
-        //     }
-
-        //     totalArrangements += recurse(condition, "", 0, groupSizesGiven, {}, 0);
-
-        // }
-
+        
         cout << summary;
     }
 
